@@ -6,7 +6,7 @@
       ansible.builtin.yum:
         name: httpd
         state: latest
-    - name: start nginx
+    - name: starts nginx
       ansible.builtin.yum:
         name: nginx
         start: started
