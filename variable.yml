@@ -1,5 +1,5 @@
 - name: variable
-  hosts: WEB
+  hosts: all
   vars:
     URL: google.com
   tasks:
