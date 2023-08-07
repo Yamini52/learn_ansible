@@ -12,10 +12,8 @@
         start: started
         enabled: yes
 
-
 - name: Install nginx
   hosts: WEB
   become: true
   roles:
-    -sample
-
+    - sample
