@@ -1,0 +1,14 @@
+- name: demo on conditions
+  hosts: all
+  connection: all
+  tasks:
+    - name: name of the fruit
+      ansible.builtin.debug:
+        msg: fruit = apple
+      when: fruit is true
+
+    - name: name of the vegetable
+      ansible.builtin.debug:
+        msg: vegetable = carrot
+      when: vegetable is true
+
