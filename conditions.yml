@@ -2,7 +2,7 @@
   hosts: all
   connection: local
   vars:
-    fruit: true
+    fruit: false
     vegetable: true
   tasks:
     - name: name of the fruit
